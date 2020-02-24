@@ -4,7 +4,9 @@ import indi.liuhanbin.demo.mapper.UserDetailMapper;
 import indi.liuhanbin.demo.pojo.UserDetail;
 import indi.liuhanbin.demo.service.UserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UserDetailServiceImpl implements UserDetailService {
 
     @Autowired
